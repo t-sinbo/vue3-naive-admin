@@ -1,5 +1,26 @@
 <template>
   <div>
+    <!-- <n-card>
+      <div flex items-center>
+        <img width="60" style="border-radius: 50%" :src="userStore.avatar" />
+        <div ml20>
+          <p text-16>Hello, {{ userStore.name }}</p>
+          <p op80 text-12 mt5>今天又是元气满满的一天</p>
+        </div>
+        <div flex ml-auto>
+          <n-statistic label="待办" :value="4">
+            <template #suffix> / 10 </template>
+          </n-statistic>
+          <n-statistic ml80 label="Stars">
+            <n-number-animation ref="starsNumberRef" show-separator :from="0" :to="999" />
+          </n-statistic>
+          <n-statistic ml80 label="Forks">
+            <n-number-animation ref="starsNumberRef" show-separator :from="0" :to="299" />
+          </n-statistic>
+        </div>
+      </div>
+    </n-card> -->
+
     <div p15 flex>
       <n-card title="项目" size="small" :segmented="true">
         <template #header-extra>
